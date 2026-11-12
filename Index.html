@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <h3>DiasporaConnect</h3>
+            <div class="nav-item active">Jobs Feed</div>
+            <div class="nav-item">Messages</div>
+            <div class="nav-item">Profile</div>
+        </aside>
+        <main class="chat-area">
+            <header>
+                <h4>Global Engineering Opportunity</h4>
+                <span class="status">Online</span>
+            </header>
+            <div id="chat-box" class="chat-box"></div>
+            <div class="input-area">
+                <input type="text" id="msg-input" placeholder="Type a message to the recruiter...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
